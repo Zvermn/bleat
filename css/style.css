@@ -1,0 +1,59 @@
+@import "/css/normalize.css";
+
+form {
+  border: solid 1px #D9D9D9;
+  width: 539px;
+  height: 447px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  padding: 54px;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 33px;
+  box-sizing: border-box;
+}
+
+label {
+  margin-left: 34px;
+  margin-bottom: 4px;
+}
+
+.name {
+  margin-bottom: 20px;
+}
+
+.second_name {
+  margin-bottom: 30px;
+}
+
+.age {
+  margin-top: 12px;
+  margin-bottom: 37px;
+  width: 100%;
+  height: 2px;
+}
+
+.send {
+  min-width: 150px;
+  height: 38px;
+  background-color: #00C8F4;
+  border-radius: 6px;
+  border-style: none;
+  color: #FFFFFF;
+  display: block;
+  padding: 0px 30px 0px 30px;
+  margin: 0 auto;
+}

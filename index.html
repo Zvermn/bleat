@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Личные данные</title>
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+</head>
+<!-- Форма персональные данные, знакомство с php -->
+
+<body>
+  <h1>Проверка</h1>
+  <form action="data.php" method="post">
+    <h2>Персональные данные</h2>
+    <label>Имя<input type="text" name="name" id="" class="name">
+    </label>
+    <label>Фамилия<input type="text" name="second_name" id="" class="second_name">
+    </label>
+    <label>Возраст: <span id="age_numb" class="age_numb">18</span>
+      <input type="range" name="age" id="age" class="age" value="18" max="100" min="18">
+    </label>
+    <button type="button" class="send" id="button_send">ok</button>
+  </form>
+  <script src="/js/app.js" type="text/javascript"></script>
+  <script src="/js/modules.js" type="module"></script>
+
+</body>
+
+</html>
